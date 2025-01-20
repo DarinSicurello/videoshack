@@ -1,0 +1,11 @@
+spring:
+   datasource:
+      username:   videoshack
+      password:   videoshack
+      url:   jdbc:mysql://localhost:3306/videoshack
+   
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true 
+    
