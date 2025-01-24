@@ -59,7 +59,7 @@ public class VideoShackService {
 	employee.setEmployeeFirstName(videoShackEmployee.getEmployeeFirstName());
 	employee.setEmployeeLastName(videoShackEmployee.getEmployeeLastName());
 	employee.setEmployeeJobTitle(videoShackEmployee.getEmployeeJobTitle());
-	employee.setEmployeePhone(videoShackEmployee.getEmployeePhone());
+	employee.setEmployeeEmail(videoShackEmployee.getEmployeeEmail());
 	}
 	private void copyCustomerFields(Customer customer,
 			VideoShackCustomer videoShackCustomer) {

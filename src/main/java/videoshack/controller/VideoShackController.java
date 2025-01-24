@@ -35,7 +35,7 @@ public class VideoShackController<videoShackService> {
 	@PostMapping
 	@ResponseStatus(code = HttpStatus.CREATED)
 	public VideoShackData insertVideoshack(@RequestBody VideoShackData videoShackData) {
-		log.info("Creating pet store()", videoShackData);
+		log.info("Creating Video Shack()", videoShackData);
 		return videoShackService.saveVideoShack(videoShackData);
 	}
 	

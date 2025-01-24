@@ -65,7 +65,7 @@ public class VideoShackData {
 		private Long employeeId;
 		private String employeeFirstName;
 		private String employeeLastName;
-		private String employeePhone;
+		private String employeeEmail;
 		private String employeeJobTitle;	
 		
 	
@@ -73,8 +73,8 @@ public class VideoShackData {
 		employeeId = employee.getEmployeeId();
 		employeeFirstName = employee.getEmployeeFirstName();
 		employeeLastName = employee.getEmployeeLastName();
-		employeePhone = employee.getEmployeePhone();
-		employeeJobTitle = employee.getemployeeJobTitle();
+		employeeEmail = employee.getEmployeeEmail();
+		employeeJobTitle = employee.getEmployeeJobTitle();
 	}
 	}	
 	}

@@ -20,22 +20,18 @@ public class Employee {
  private Long employeeId;
  private String employeeFirstName;
  private String employeeLastName;
- private String employeePhone;
+ private String employeeEmail;
  private String employeeJobTitle;
  @EqualsAndHashCode.Exclude
  @ToString.Exclude
 	
 @ManyToOne(cascade = CascadeType.ALL)
-@JoinColumn(name = "pet_store_id")
+@JoinColumn(name = "videoShackId")
  private VideoShack videoShack;
 
-public String getemployeeJobTitle() {
-	// TODO Auto-generated method stub
-	return null;
+
 }
 
-public void setEmployeeJobTitle(String employeeJobTitle2) {
-	// TODO Auto-generated method stub
+
 	
-}
-}
+
